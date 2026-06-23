@@ -1,0 +1,163 @@
+alert("QUIZ: A PRINCESA E O SAPO 👑🐸\nResponda corretamente!");
+
+let acertos = 0;
+let erros = 0;
+let resposta;
+
+// Pergunta 1
+resposta = prompt("1) Qual é o nome da protagonista?\nA) Tiana\nB) Elsa\nC) Moana\nD) Ariel\n\nResposta:");
+
+switch(resposta){
+    case "A":
+    case "a":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: A) Tiana");
+        erros++;
+}
+
+alert(" ");
+
+// Pergunta 2
+resposta = prompt("2) Qual é o sonho da Tiana?\nA) Ser princesa\nB) Abrir um restaurante\nC) Ser cantora\nD) Viajar o mundo\n\nResposta:");
+
+switch(resposta){
+    case "B":
+    case "b":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: B) Abrir um restaurante");
+        erros++;
+}
+
+alert(" ");
+
+// Pergunta 3
+resposta = prompt("3) Quem vira sapo no filme?\nA) Louis\nB) Dr. Facilier\nC) Naveen\nD) Ray\n\nResposta:");
+
+switch(resposta){
+    case "C":
+    case "c":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: C) Naveen");
+        erros++;
+}
+
+alert(" ");
+
+// Pergunta 4
+resposta = prompt("4) Qual é o nome do príncipe?\nA) Naveen\nB) Eric\nC) Adam\nD) John\n\nResposta:");
+
+switch(resposta){
+    case "A":
+    case "a":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: A) Naveen");
+        erros++;
+}
+
+alert(" ");
+
+// Pergunta 5
+resposta = prompt("5) Quem é o vilão?\nA) Scar\nB) Jafar\nC) Dr. Facilier\nD) Hades\n\nResposta:");
+
+switch(resposta){
+    case "C":
+    case "c":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: C) Dr. Facilier");
+        erros++;
+}
+
+alert(" ");
+
+// Pergunta 6
+resposta = prompt("6) Qual é o animal Ray?\nA) Vagalume\nB) Sapo\nC) Pássaro\nD) Peixe\n\nResposta:");
+
+switch(resposta){
+    case "A":
+    case "a":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: A) Vagalume");
+        erros++;
+}
+
+alert(" ");
+
+// Pergunta 7
+resposta = prompt("7) Qual cidade aparece no filme?\nA) Paris\nB) Nova York\nC) Nova Orleans\nD) Londres\n\nResposta:");
+
+switch(resposta){
+    case "C":
+    case "c":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: C) Nova Orleans");
+        erros++;
+}
+
+alert(" ");
+
+// Pergunta 8
+resposta = prompt("8) Qual amiga da Tiana é rica?\nA) Charlotte\nB) Anna\nC) Elsa\nD) Jasmine\n\nResposta:");
+
+switch(resposta){
+    case "A":
+    case "a":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: A) Charlotte");
+        erros++;
+}
+
+alert(" ");
+
+// Pergunta 9
+resposta = prompt("9) O que quebra o feitiço?\nA) Dinheiro\nB) Magia negra\nC) Amor verdadeiro\nD) Música\n\nResposta:");
+
+switch(resposta){
+    case "C":
+    case "c":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: C) Amor verdadeiro");
+        erros++;
+}
+
+alert(" ");
+
+// Pergunta 10
+resposta = prompt("10) Em que animal Tiana vira?\nA) Gato\nB) Coelho\nC) Sapo\nD) Passarinho\n\nResposta:");
+
+switch(resposta){
+    case "C":
+    case "c":
+        alert("Correto! 🎉");
+        acertos++;
+        break;
+    default:
+        alert("Errado ❌ Resposta correta: C) Sapo");
+        erros++;
+}
