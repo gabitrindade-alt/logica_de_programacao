@@ -1,0 +1,355 @@
+let cor = prompt("Qual sua é sua cor favorita? ")
+switch (cor) {
+    case "roxo":
+        console.log ("Você é uma fada")
+        break
+        
+        case "vermelho":
+            console.log ("Um vampirinho")
+            break
+            
+            case "amarelo":
+                console.log ("Você é muito latino")
+                break
+                
+                case "azul":
+                console.log ("Divo")
+                break 
+                
+                case "rosa":
+                console.log ("Muito fofis!!")
+                break
+                
+                default:
+                console.log ("Não vale essas tapado")
+}
+
+Exercícios:
+
+1)
+let idioma = prompt("Qual é seu idioma? ")
+
+switch (idioma) {
+case "pt":
+    console.log ("Olá, tudo bem?")
+    break
+    
+    case "en":
+        console.log ("Hello, how are you?")
+        break
+        
+        case "es":
+            console.log ("Hola, como estás?")
+            break
+            
+            default:
+            console.log ("Idioma indisponível")
+}  
+
+2)
+let dia = prompt("Qual é o dia da semana? ")
+
+switch (dia) {
+    case "1":
+    console.log ("Domingo")
+    break
+    
+    case "2":
+        console.log ("Segunda-feira")
+        break
+        
+        case "3":
+            console.log ("Terça-feira")
+            break 
+            
+            case "4":
+                console.log ("Quarta-feira")
+                break
+                
+                case "5":
+                    console.log ("Quinta-feira")
+                    break
+                    
+                    case "6":
+                        console.log ("Sexta-feira")
+                        break
+                        
+                        case "7": 
+                            console.log ("Sábado")
+                            break
+                            
+                            default:
+                            console.log ("Esse dia só existe na sua cabeça")
+}
+
+3)
+let transporte = prompt("Escolha um número de 1-4: ")
+
+switch (transporte) {
+    case "1":
+    console.log ("Carro")
+    break
+    
+    case "2":
+    console.log ("Bicicleta")
+    break
+    
+    case "3":
+    console.log ("Ônibus")
+    break
+    
+    case "4":
+    console.log ("Moto")
+    break
+    
+    default:
+    console.log ("Transporte indisponível no momento")
+    break
+}
+
+4)
+let urg = prompt("Entre 1-3, qual seu nível de urgência? ")
+
+switch (urg) {
+    case"1":
+        console.log ("Baixa")
+    break
+    
+    case "2":
+        console.log ("Média")
+        break
+        
+        case "3":
+        console.log ("Alta")
+        break
+        
+        default:
+        console.log ("Nível irreconhecido")
+}
+
+5)
+let categoria = prompt("Digite a categoria (compacto, SUV ou caminhão): ");
+
+switch (categoria) {
+    case "compacto":
+    console.log ("Veículo menor")
+    break
+    
+    case "SUV":
+    console.log ("Veículo grande e alto")
+    break
+    
+    case "caminhão":
+    console.log ("Veículo de carga")
+    break
+    
+    default:
+    console.log ("Categoria desconhecida")
+}
+
+6)
+let horas = Number(prompt("Informe o tempo em horas: "));
+
+switch (true) {
+  case (horas <= 1):
+    console.log("R$5");
+    break;
+
+  case (horas <= 2):
+    console.log("R$10");
+    break;
+
+  case (horas <= 4):
+    console.log("R$15");
+    break;
+    
+case (horas <= 6):
+    console.log("R$30");
+    break;
+    
+    
+  default:
+    console.log("Valor indefinido");
+}
+
+7)
+let nivel = Number(prompt("Digite um número entre 1-3 para classificar o jogo: "));
+
+switch (nivel) {
+  case 1:
+    console.log("Fácil");
+    break;
+
+  case 2:
+    console.log("Médio");
+    break;
+
+  case 3:
+    console.log("Difícil");
+    break;
+
+  default:
+    console.log("Nível inválido");
+}
+
+8)
+let servico = prompt("Escolha um serviço: ");
+
+switch (servico) {
+  case "yoga":
+    console.log("Aula de yoga");
+    break;
+
+  case "musculacao":
+    console.log("Musculação");
+    break;
+
+  case "personal":
+    console.log("Personal trainer");
+    break;
+
+  default:
+    console.log("Serviço não encontrado");
+}
+
+9)
+let tipo = prompt("Digite o tipo (estudante, meia, inteira): ");
+
+switch (tipo) {
+  case "estudante":
+    console.log("R$10");
+    break;
+
+  case "meia":
+    console.log("R$15");
+    break;
+
+  case "inteira":
+    console.log("R$30");
+    break;
+
+  default:
+    console.log("Categoria inválida");
+}
+
+10)
+let idade = Number(prompt("Informe sua idade: "));
+
+switch (true) {
+  case (idade < 12):
+    console.log("Nível leve (crianças)");
+    break;
+
+  case (idade >= 12 && idade <= 17):
+    console.log("Nível moderado (adolescentes)");
+    break;
+
+  case (idade >= 18 && idade <= 40):
+    console.log("Nível intenso (adultos)");
+    break;
+
+  case (idade >= 40 && idade <= 80):
+    console.log("Nível leve/moderado (maior cuidado)");
+    break;
+
+  default:
+    console.log("Idade muito elevada, descanse");
+}
+
+11)
+let genero = prompt("Escolha um gênero musical (rock, pop, classico): ");
+
+switch (genero) {
+  case "rock":
+    console.log("Guitarra e bateria");
+    break;
+
+  case "pop":
+    console.log("Teclado e voz");
+    break;
+
+  case "classico":
+    console.log("Violino e piano");
+    break;
+
+  default:
+    console.log("Gênero indisponível no momento");
+}
+
+12)
+let area = prompt("Digite a área (front-end, back-end, mobile):");
+
+switch (area) {
+  case "front-end":
+    console.log("HTML, CSS e JavaScript");
+    break;
+
+  case "back-end":
+    console.log("APIs e banco de dados");
+    break;
+
+  case "mobile":
+    console.log("Apps Android e iOS");
+    break;
+
+  default:
+    console.log("Área desconhecida");
+}
+
+13)
+let idade = Number(prompt("Digite a idade do atleta: "));
+
+switch (true) {
+  case (idade <= 12):
+    console.log("Iniciante");
+    break;
+
+  case (idade <= 18):
+    console.log("Intermediário");
+    break;
+
+  case (idade < 40):
+    console.log("Avançado");
+    break;
+
+  case (idade <= 80):
+    console.log("Mestre");
+    break;
+
+  default:
+    console.log("Lendário");
+}
+
+14)
+let categoria = prompt("Escolha uma categoria categoria (basico, intermediario, avançado): ");
+
+switch (categoria) {
+  case "basico":
+    console.log("Resolva: 5 + 3 = ?");
+    break;
+
+  case "intermediario":
+    console.log("Resolva: 12 × 4 = ?");
+    break;
+
+  case "avançado":
+    console.log("Resolva: (15 × 2) + (10 ÷ 2) = ?");
+    break;
+
+  default:
+    console.log("Categoria inexistente");
+}
+Estudo - Switch Case.txt
+Página 2 de 6 Página 1 de 6
+assignment
+Exercicios 1 - Switch Case 
+Matheus santos
+•
+14 de abr. (editado: 09:36)
+100 pontos
+|
+Data de entrega: 17:00
+Link
+https://fantastic-gaura-dc7.notion.site/Exerc-cios-1-Switch-Case-175cd549afea80949262fb838b9e97ca
+
+Comentários da turma
