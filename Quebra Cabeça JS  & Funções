@@ -1,0 +1,117 @@
+1- Treino:
+
+function bom_dia(){
+    console.log("Bom dia!")
+}
+bom_dia ()
+
+2- Soma:
+
+let num1 = 600
+let num2 = 60
+
+function soma(){
+console.log(num1 + num2)
+}
+soma()
+
+3- Operador
+
+let num1 = Number(prompt("Digite um número: "));
+let num2 = Number(prompt("Digite outro número: "));
+let oper = prompt("Qual o operador matemático (soma, subtração, multiplicação, divisão): ");
+
+function mais (){
+    console.log(num1 + num2);
+}
+
+function menos(){
+    console.log(num1 - num2);
+} 
+
+function vezes(){
+    console.log(num1 * num2);
+}
+
+function div(){
+    console.log(num1 / num2);
+}
+
+switch (oper){
+    case "soma":
+        mais();
+        break;
+
+    case "subtração":
+        menos();
+        break;
+
+    case "multiplicação":
+        vezes();
+        break;
+
+    case "divisão":
+        div();
+        break;
+
+    default:
+        console.log("Operador inválido!");
+}
+
+4- Return
+
+function soma (a,b){
+    return a + b
+}
+    console.log (soma(60,10))
+
+
+function div (a,b){
+    return a / b
+}
+    console.log (div(60,10))
+
+5- Organizando códigos
+
+Código 1 
+
+let categoria
+let idade
+const nome = "Fernanda"
+idade = 27
+if ( idade >= 60 ){
+categoria = "Idosa"
+} else if (idade > 18 && idade < 60){
+    categoria = "Adulta"
+} else if (idade >= 12 && idade <= 18){
+    categoria = "Adolecente"
+} else {
+    categoria = "Criança"
+}
+console.log("Idade final", idade)
+console.log("Categoria: " + categoria)
+
+Código 2
+
+idade = 25
+if (idade < 16){
+    console.log("Não vota")
+}else if (idade >= 16 && idade < 18){
+   console.log("Voto facultativo")
+   }else if (idade >= 18 && idade < 70){
+   console.log("Voto obrigatório")
+ }else {
+    console.log("Voto facultativo")
+     
+ }
+
+Código 3
+
+let numero = Number(prompt("Escolha um número: "))
+if (numero > 0){
+console.log("Positivo")
+}else if (numero < 0) {
+console.log ("Negativo")
+} else{
+    console.log("Zero")
+}
