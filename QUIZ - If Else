@@ -1,0 +1,173 @@
+let acertos = 0;
+let erros = 0;
+let pontos = 0;
+
+let perguntas = [
+{pergunta: &quot;O que é um sistema operacional?&quot;, opcoes: [&quot;Um jogo&quot;, &quot;Um
+programa que gerencia o computador&quot;, &quot;Um navegador&quot;, &quot;Um antivírus&quot;],
+correta: &quot;B&quot;},
+{pergunta: &quot;Qual é um sistema operacional?&quot;, opcoes: [&quot;Windows&quot;, &quot;Word&quot;,
+&quot;Excel&quot;, &quot;PowerPoint&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;O Linux é:&quot;, opcoes: [&quot;Pago&quot;, &quot;Sistema operacional&quot;, &quot;Editor de
+texto&quot;, &quot;Jogo&quot;], correta: &quot;B&quot;},
+{pergunta: &quot;O que significa CPU?&quot;, opcoes: [&quot;Unidade Central de
+Processamento&quot;, &quot;Memória&quot;, &quot;Tela&quot;, &quot;Teclado&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;Qual é um sistema operacional móvel?&quot;, opcoes: [&quot;Android&quot;,
+&quot;Windows&quot;, &quot;Linux&quot;, &quot;Ubuntu&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;Na lógica, if significa:&quot;, opcoes: [&quot;Repetir&quot;, &quot;Condição&quot;, &quot;Parar&quot;,
+&quot;Somar&quot;], correta: &quot;B&quot;},
+{pergunta: &quot;for é usado para:&quot;, opcoes: [&quot;Condição&quot;, &quot;Repetição&quot;, &quot;Somar&quot;,
+&quot;Apagar&quot;], correta: &quot;B&quot;},
+{pergunta: &quot;Algoritmo é:&quot;, opcoes: [&quot;Um jogo&quot;, &quot;Uma sequência de
+passos&quot;, &quot;Um vírus&quot;, &quot;Um hardware&quot;], correta: &quot;B&quot;},
+{pergunta: &quot;Memória RAM serve para:&quot;, opcoes: [&quot;Guardar dados
+temporários&quot;, &quot;Guardar dados para sempre&quot;, &quot;Processar vídeo&quot;, &quot;Ligar o PC&quot;],
+correta: &quot;A&quot;},
+{pergunta: &quot;HD ou SSD serve para:&quot;, opcoes: [&quot;Processar&quot;, &quot;Armazenar
+arquivos&quot;, &quot;Mostrar imagem&quot;, &quot;Resfriar&quot;], correta: &quot;B&quot;}
+];
+
+for (let i = 0; i &lt; perguntas.length; i++) {
+let p = perguntas[i];
+
+let resposta = prompt(
+p.pergunta + &quot;\n\n&quot; +
+&quot;A) &quot; + p.opcoes[0] + &quot;\n&quot; +
+&quot;B) &quot; + p.opcoes[1] + &quot;\n&quot; +
+&quot;C) &quot; + p.opcoes[2] + &quot;\n&quot; +
+&quot;D) &quot; + p.opcoes[3] + &quot;\n\n&quot; +
+&quot;Resposta:&quot;
+);
+
+resposta = resposta.toUpperCase();
+
+if (resposta == p.correta) {
+acertos++;
+pontos++;
+alert(&quot;Acertou!&quot;);
+} else {
+erros++;
+alert(&quot;Errou! A resposta correta é: &quot; + p.correta);
+}
+}
+
+alert(&quot;Resultado final:\nPontos: &quot; + pontos + &quot;\nAcertos: &quot; + acertos +
+&quot;\nErros: &quot; + erros);
+}
+
+QUIZ 2 – CONHECIMENTOS GERAIS
+function quizGeral() {
+
+let acertos = 0;
+let erros = 0;
+let pontos = 0;
+
+let perguntas = [
+{pergunta: &quot;Capital do Brasil?&quot;, opcoes: [&quot;Rio de Janeiro&quot;, &quot;Brasília&quot;, &quot;São
+Paulo&quot;, &quot;Salvador&quot;], correta: &quot;B&quot;},
+{pergunta: &quot;Quantos continentes existem?&quot;, opcoes: [&quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot;],
+correta: &quot;C&quot;},
+{pergunta: &quot;Maior planeta do sistema solar?&quot;, opcoes: [&quot;Terra&quot;, &quot;Marte&quot;,
+&quot;Júpiter&quot;, &quot;Saturno&quot;], correta: &quot;C&quot;},
+{pergunta: &quot;Quem descobriu o Brasil?&quot;, opcoes: [&quot;Pedro Álvares Cabral&quot;,
+&quot;Dom Pedro&quot;, &quot;Tiradentes&quot;, &quot;Getúlio Vargas&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;Qual é o oceano maior?&quot;, opcoes: [&quot;Atlântico&quot;, &quot;Pacífico&quot;,
+&quot;Índico&quot;, &quot;Ártico&quot;], correta: &quot;B&quot;},
+{pergunta: &quot;5 x 5 é:&quot;, opcoes: [&quot;10&quot;, &quot;20&quot;, &quot;25&quot;, &quot;30&quot;], correta: &quot;C&quot;},
+{pergunta: &quot;Animal que mia:&quot;, opcoes: [&quot;Cachorro&quot;, &quot;Gato&quot;, &quot;Vaca&quot;,
+&quot;Cavalo&quot;], correta: &quot;B&quot;},
+{pergunta: &quot;Cor do céu:&quot;, opcoes: [&quot;Azul&quot;, &quot;Verde&quot;, &quot;Vermelho&quot;, &quot;Preto&quot;],
+correta: &quot;A&quot;},
+{pergunta: &quot;Quantos dias tem a semana?&quot;, opcoes: [&quot;5&quot;, &quot;6&quot;, &quot;7&quot;, &quot;8&quot;],
+correta: &quot;C&quot;},
+{pergunta: &quot;Qual é uma fruta?&quot;, opcoes: [&quot;Cenoura&quot;, &quot;Batata&quot;, &quot;Maçã&quot;,
+&quot;Alface&quot;], correta: &quot;C&quot;}
+];
+
+for (let i = 0; i &lt; perguntas.length; i++) {
+let p = perguntas[i];
+
+let resposta = prompt(
+p.pergunta + &quot;\n\n&quot; +
+&quot;A) &quot; + p.opcoes[0] + &quot;\n&quot; +
+
+&quot;B) &quot; + p.opcoes[1] + &quot;\n&quot; +
+&quot;C) &quot; + p.opcoes[2] + &quot;\n&quot; +
+&quot;D) &quot; + p.opcoes[3] + &quot;\n\n&quot; +
+&quot;Resposta:&quot;
+);
+
+resposta = resposta.toUpperCase();
+
+if (resposta == p.correta) {
+acertos++;
+pontos++;
+alert(&quot;Acertou!&quot;);
+} else {
+erros++;
+alert(&quot;Errou! A resposta correta é: &quot; + p.correta);
+}
+}
+
+alert(&quot;Resultado final:\nPontos: &quot; + pontos + &quot;\nAcertos: &quot; + acertos +
+&quot;\nErros: &quot; + erros);
+}
+
+QUIZ 3 – FLAMENGO
+function quizFlamengo() {
+let acertos = 0;
+let erros = 0;
+
+let pontos = 0;
+
+let perguntas = [
+{pergunta: &quot;Ano de fundação do Flamengo?&quot;, opcoes: [&quot;1895&quot;, &quot;1900&quot;,
+&quot;1910&quot;, &quot;1920&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;Maior ídolo do Flamengo?&quot;, opcoes: [&quot;Zico&quot;, &quot;Neymar&quot;, &quot;Pelé&quot;,
+&quot;Romário&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;Estádio onde o Flamengo joga?&quot;, opcoes: [&quot;Maracanã&quot;,
+&quot;Morumbi&quot;, &quot;Mineirão&quot;, &quot;Arena Grêmio&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;Mascote do Flamengo?&quot;, opcoes: [&quot;Urubu&quot;, &quot;Leão&quot;, &quot;Galo&quot;,
+&quot;Raposa&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;Cores do Flamengo?&quot;, opcoes: [&quot;Azul e branco&quot;, &quot;Verde e
+branco&quot;, &quot;Preto e vermelho&quot;, &quot;Amarelo e preto&quot;], correta: &quot;C&quot;},
+{pergunta: &quot;Cidade do Flamengo?&quot;, opcoes: [&quot;São Paulo&quot;, &quot;Rio de
+Janeiro&quot;, &quot;Belo Horizonte&quot;, &quot;Salvador&quot;], correta: &quot;B&quot;},
+{pergunta: &quot;Flamengo ganhou a Libertadores de 2019 contra:&quot;, opcoes:
+[&quot;River Plate&quot;, &quot;Boca Juniors&quot;, &quot;Palmeiras&quot;, &quot;Grêmio&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;Técnico do Flamengo em 2019?&quot;, opcoes: [&quot;Jorge Jesus&quot;,
+&quot;Tite&quot;, &quot;Felipão&quot;, &quot;Luxemburgo&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;Apelido do Flamengo?&quot;, opcoes: [&quot;Mengão&quot;, &quot;Timão&quot;,
+&quot;Verdão&quot;, &quot;Tricolor&quot;], correta: &quot;A&quot;},
+{pergunta: &quot;País do Flamengo?&quot;, opcoes: [&quot;Brasil&quot;, &quot;Argentina&quot;, &quot;Chile&quot;,
+&quot;Uruguai&quot;], correta: &quot;A&quot;}
+];
+
+for (let i = 0; i &lt; perguntas.length; i++) {
+let p = perguntas[i];
+
+let resposta = prompt(
+p.pergunta + &quot;\n\n&quot; +
+&quot;A) &quot; + p.opcoes[0] + &quot;\n&quot; +
+&quot;B) &quot; + p.opcoes[1] + &quot;\n&quot; +
+
+&quot;C) &quot; + p.opcoes[2] + &quot;\n&quot; +
+&quot;D) &quot; + p.opcoes[3] + &quot;\n\n&quot; +
+&quot;Resposta:&quot;
+);
+
+resposta = resposta.toUpperCase();
+
+if (resposta == p.correta) {
+acertos++;
+pontos++;
+alert(&quot;Acertou!&quot;);
+} else {
+erros++;
+alert(&quot;Errou! A resposta correta é: &quot; + p.correta);
+}
+}
+
+alert(&quot;Resultado final:\nPontos: &quot; + pontos + &quot;\nAcertos: &quot; + acertos +
+&quot;\nErros: &quot; + erros);
+}
