@@ -1,0 +1,31 @@
+let usuario = "bibi.trindade";
+let senha = "bt0110";
+let usu = prompt("Informe um usuário:");
+let snh = prompt("Informe uma senha:");
+function fazer_login(usu, snh) {
+    if (usuario == usu && senha == snh) {
+        alert ("Login realizado com sucesso!")
+    } else {
+        alert ("Login inválido")
+    }
+}
+fazer_login(usu, snh)
+
+2- Desafio 1
+
+let usuarios = ["Gaby", "Isa", "Bruna", "Miguel", "Felipe", "Moisés", "Breno", "Lucas", "Nicolas", "Bia"];
+let senhas = ["1111", "2222", "3333", "4444", "5555", "6666", "7777", "8888", "9999", "0000"];
+
+let usu = prompt("Informe o usuário:");
+let snh = prompt("Informe a senha:");
+
+function fazer_login(usua, snh) {
+    for (let i = 0; i < usuarios.length; i++) {
+        if (usuario == usuarios[i] && senha == senhas[i]) {
+            alert("Login realizado com sucesso!");
+            return;
+        }
+    }
+
+    alert("Login inválido!");
+}
