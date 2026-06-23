@@ -1,0 +1,89 @@
+let usu = prompt("Informe o usuário: ");
+let snh = prompt("Informe a senha: ");
+
+function fazer_login(usuario, senha) {
+    switch (usuario) {
+        case "Gaby":
+            if (senha == "1111") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        case "Isa":
+            if (senha == "2222") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        case "Bruna":
+            if (senha == "3333") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        case "Miguel":
+            if (senha == "4444") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        case "Felipe":
+            if (senha == "5555") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        case "Moisés":
+            if (senha == "6666") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        case "Breno":
+            if (senha == "7777") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        case "Lucas":
+            if (senha == "8888") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        case "Nicolas":
+            if (senha == "9999") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        case "Bia":
+            if (senha == "0000") {
+                alert("Login realizado com sucesso!");
+            } else {
+                alert("Senha incorreta!");
+            }
+            break;
+
+        default:
+            alert("Usuário não encontrado!");
+    }
+}
