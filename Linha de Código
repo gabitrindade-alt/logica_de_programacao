@@ -1,0 +1,60 @@
+let valor1 = 6009
+let valor2 = 10
+let resultado = valor1 + valor2
+console.log(resultado)
+let res = valor1 - valor2
+console.log(res)
+let multiplicacao = valor1 * valor2
+console.log(multiplicacao)
+let divisao = valor1 / valor2
+console.log(divisao)
+let valor3 = 300
+let valor4 = &quot;98&quot;
+let igual = valor3 == valor4
+console.log(igual)
+let extritamenteigual = valor3 === valor4
+console.log(extritamenteigual)
+let maior = valor1 &gt; valor2
+console.log(maior)
+let menor = valor1 &lt; valor2
+console.log(menor)
+let maiorouigual = valor1 &gt;= valor2
+console.log(maiorouigual)
+let menorouigual = valor1 &lt;= valor2
+console.log(menorouigual)
+let valor5 = 945
+valor5 ++
+console.log(valor5)
+let valor6 = 30
+
+valor6 --
+console.log(valor6)
+let valor7 = 324
+valor7 +=765
+console.log(valor7)
+let valor8 = 399
+valor8 -=101
+console.log(valor8)
+let diferente = valor3 != valor4
+console.log(diferente)
+let dif = valor3 !== valor4
+console.log(dif)
+
+Resultados
+6019
+5999
+60090
+600.9
+false
+false
+true
+false
+true
+false
+946
+29
+1089
+298
+true
+
+true
