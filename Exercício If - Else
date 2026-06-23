@@ -1,0 +1,133 @@
+let valor1 = 6009
+let valor2 = 10
+let resultado = valor1 + valor2
+console.log(resultado)
+let res = valor1 - valor2
+console.log(res)
+let multiplicacao = valor1 * valor2
+console.log(multiplicacao)
+let divisao = valor1 / valor2
+console.log(divisao)
+let valor3 = 300
+let valor4 = &quot;98&quot;
+let igual = valor3 == valor4
+console.log(igual)
+let extritamenteigual = valor3 === valor4
+console.log(extritamenteigual)
+let maior = valor1 &gt; valor2
+console.log(maior)
+let menor = valor1 &lt; valor2
+console.log(menor)
+let maiorouigual = valor1 &gt;= valor2
+console.log(maiorouigual)
+let menorouigual = valor1 &lt;= valor2
+console.log(menorouigual)
+let valor5 = 945
+valor5 ++
+console.log(valor5)
+let valor6 = 30
+
+valor6 --
+console.log(valor6)
+let valor7 = 324
+valor7 +=765
+console.log(valor7)
+let valor8 = 399
+valor8 -=101
+console.log(valor8)
+let diferente = valor3 != valor4
+console.log(diferente)
+let dif = valor3 !== valor4
+console.log(dif)
+
+Resultados
+6019
+5999
+60090
+600.9
+false
+false
+true
+false
+true
+false
+946
+29
+1089
+298
+true
+
+true
+
+let nome = prompt(&quot;Informe seu nome: &quot;)
+console.log (&quot;Seja bem vindo&quot;, nome)
+let idade = Number (prompt(&quot;Qual a sua idade? &quot;))
+if (idade &gt; 18){
+console.log (&quot;Você tem&quot;, idade, &quot;anos&quot;)
+console.log (&quot;Você é maior de idade&quot;)
+} else {
+console.log (&quot;Você é menor de idade&quot;)
+}
+
+let num = Number(prompt(&quot;Digite um número: &quot;))
+let num2 = Number(prompt(&quot;Digite um número: &quot;))
+if (num &gt; num2){
+console.log (&quot;O primeiro número é maior&quot;)
+} else if(num2 &gt; num){
+console.log (&quot; O segundo número é maior&quot;)
+} else if(num = num2) {
+console.log (&quot;Os dois são iguais&quot;)
+} else {
+console.log (&quot;Valores inválidos&quot;)
+}
+
+let usua = prompt(&quot;Informe o seu usuário: &quot;)
+let senha = prompt(&quot;Digite sua senha: &quot;)
+if (usua === &quot;gaby&quot; &amp;&amp; senha === &quot;1608&quot;) {
+
+console.log (&quot;Login efetuado com sucesso ��&quot;) }
+else if (usua === &quot;gaby&quot; &amp;&amp; senha !== &quot;1608&quot;) {
+console.log (&quot;Senha Incorreta ��&quot;) }
+else if (usua !== &quot;gaby&quot; &amp;&amp; senha === &quot;1608&quot;) {
+console.log (&quot;Usuário incorreto ��&quot;)
+} else {
+console.log (&quot;Ambos estão incorretos ��&quot;)
+
+let num = Number(prompt(&quot;Digite um número para ver a tabuada: &quot;))
+
+let numx1 = num*1
+console.log(num,&quot;x 1 =&quot;,numx1)
+let numx2 = num*2
+console.log(num,&quot;x 2 =&quot;,numx2)
+let numx3 = num*3
+console.log(num,&quot;x 3 =&quot;,numx3)
+let numx4 = num*4
+console.log(num,&quot;x 4 =&quot;,numx4)
+let numx5 = num*5
+console.log(num,&quot;x 5 =&quot;,numx5)
+let numx6 = num*6
+console.log(num,&quot;x 6 =&quot;,numx6)
+let numx7 = num*7
+console.log(num,&quot;x 7 =&quot;,numx7)
+let numx8 = num*8
+console.log(num,&quot;x 8 =&quot;,numx8)
+let numx9 = num*9
+console.log(num,&quot;x 9 =&quot;,numx9)
+let numx10 = num*10
+
+console.log(num,&quot;x 10 =&quot;,numx10)
+
+let idade = Number(prompt(&quot;Qual é a sua idade? &quot;))
+let temCarteira = true
+if (idade &gt;= 18 &amp;&amp; temCarteira) {
+console.log(&quot;Pode dirigir&quot;)
+} else {
+console.log(&quot;Não pode dirigir&quot;)
+}
+
+let idade = Number(prompt(&quot;Qual é a sua idade? &quot;))
+if (idade &lt; 12 || idade &gt;= 60) {
+console.log(&quot;Entrada gratuita&quot;)
+} else {
+console.log(&quot;Precisa pagar&quot;)
+}
