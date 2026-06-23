@@ -1,0 +1,78 @@
+console.log(&quot;Olá Usuário(a)&quot;)
+console.log(&quot;Seja bem-vindo ao nosso sistema!&quot;)
+console.log(&quot;Para realizarmos o seu cadastro precisamos de alguns dados.&quot;)
+let nome = prompt(&quot;Digite seu nome: &quot;)
+let sobrenome = prompt(&quot;Digite seu sobrenome: &quot;)
+let idade = prompt(&quot;Digite sua idade: &quot;)
+let dataNascimento = prompt(&quot;Digite sua data de nascimento: &quot;)
+let cpf = prompt(&quot;Digite seu CPF: &quot;)
+let rg = prompt(&quot;Digite seu RG: &quot;)
+let nacionalidade = prompt(&quot;Digite sua nacionalidade: &quot;)
+console.log (&quot;Referente ao seu Endereço&quot;)
+let rua = prompt(&quot;Informe sua rua: &quot;)
+let numcasa = prompt(&quot;Informe o número da sua casa: &quot;)
+let bairro = prompt(&quot;Informe o bairro onde você mora: &quot;)
+let cidade = prompt(&quot;Informe a cidade onde você mora: &quot;)
+let estado = prompt(&quot;Informe o estado onde você mora: &quot;)
+let cep = prompt(&quot;Informe seu CEP: &quot;)
+let pais = prompt(&quot;Informe o país em que você mora: &quot;)
+console.log (&quot;Informações de Contato&quot;)
+let telp = prompt(&quot;Informe o principal telefone de contato: &quot;)
+let tels = prompt(&quot;Informe outro telefone para contato: &quot;)
+let email = prompt(&quot;Informe seu email pessoal: &quot;)
+let emailp = prompt(&quot;Informe seu email profissional: &quot;)
+let insta = prompt(&quot;Favor, informe seu instaram: &quot;)
+let link = prompt(&quot;Informe seu perfil do LinkedIn: &quot;)
+console.log (&quot;Informações Pessoais&quot;)
+let profissao = prompt(&quot;Informe sua profissão: &quot;)
+let empresa = prompt(&quot;Informe sua empresa atual: &quot;)
+let cargo = prompt(&quot;Informe seu cargo: &quot;)
+
+let tempoExperiencia = prompt(&quot;Informe seu tempo de experiência: &quot;)
+let salario = prompt(&quot;Informe seu salário atual: &quot;)
+let areaAtuacao = prompt(&quot;Informe sua área de atuação: &quot;)
+console.log (&quot;Formação Acadêmica&quot;)
+let escolaridade = prompt(&quot;Informe sua escolaridade: &quot;)
+let curso = prompt(&quot;Informe seu curso: &quot;)
+let instituicao = prompt(&quot;Informe a instituição: &quot;)
+let anoInicio = prompt(&quot;Informe o ano de início do curso: &quot;)
+let anoConclusao = prompt(&quot;Informe o ano de conclusão: &quot;)
+let cursoAdicional = prompt(&quot;Informe um curso adicional realizado: &quot;)
+console.log (&quot;Ligação com Tecnologia&quot;)
+let linguagem = prompt(&quot;Informe sua linguagem de programação favorita: &quot;)
+let editor = prompt(&quot;Informe o editor de código que você utiliza: &quot;)
+let sistemaOperacional = prompt(&quot;Informe seu sistema operacional: &quot;)
+let horasEstudo = prompt(&quot;Quantas horas você estuda por dia? &quot;)
+let areaTech = prompt(&quot;Qual área da tecnologia você mais gosta? &quot;)
+console.log (&quot;Preferências&quot;)
+let comida = prompt(&quot;Qual sua comida favorita? &quot;)
+let filme = prompt(&quot;Qual seu filme favorito? &quot;)
+let serie = prompt(&quot;Qual sua série favorita? &quot;)
+let musica = prompt(&quot;Qual sua música favorita? &quot;)
+let cor = prompt(&quot;Qual sua cor favorita? &quot;)
+let hobby = prompt(&quot;Quais são seus hobbys? &quot;)
+console.log (&quot;Objetivos&quot;)
+let profissaoSonho = prompt(&quot;Qual é a sua profissão dos sonhos? &quot;)
+let empresaSonho = prompt(&quot;Em qual empresa você gostaria de trabalhar? &quot;)
+let salarioDesejado = prompt(&quot;Qual o salário desejado? &quot;)
+let cidadeSonho = prompt(&quot;Em qual cidade você gostaria de morar? &quot;)
+let paisSonho = prompt(&quot;Qual país você gostaria de visitar? &quot;)
+
+console.log(&quot;Nome: &quot; + nome + &quot; &quot; + sobrenome + &quot;, Idade: &quot; + idade + &quot;, Data
+de Nascimento: &quot; + dataNascimento + &quot;, CPF: &quot; + cpf + &quot;, RG: &quot; + rg + &quot;,
+Nacionalidade: &quot; + nacionalidade + &quot;, Endereço: &quot; + rua + &quot;, Nº &quot; + numcasa + &quot;,
+&quot; + bairro + &quot;, &quot; + cidade + &quot;/&quot; + estado + &quot;, CEP: &quot; + cep + &quot;, País: &quot; + pais + &quot;,
+Profissão: &quot; + profissao + &quot;, Empresa: &quot; + empresa + &quot;, Cargo: &quot; + cargo + &quot;,
+Experiência: &quot; + tempoExperiencia + &quot;, Salário: &quot; + salario + &quot;, Área: &quot; +
+areaAtuacao + &quot;, Escolaridade: &quot; + escolaridade + &quot;, Curso: &quot; + curso + &quot;,
+Instituição: &quot; + instituicao + &quot;, Início: &quot; + anoInicio + &quot;, Conclusão: &quot; +
+anoConclusao + &quot;, Curso adicional: &quot; + cursoAdicional + &quot;, Linguagem: &quot; +
+linguagem + &quot;, Editor: &quot; + editor + &quot;, Sistema: &quot; + sistemaOperacional + &quot;, Horas
+de estudo: &quot; + horasEstudo + &quot;, Área tech: &quot; + areaTech + &quot;, Comida: &quot; + comida
++ &quot;, Filme: &quot; + filme + &quot;, Série: &quot; + serie + &quot;, Música: &quot; + musica + &quot;, Cor: &quot; + cor +
+&quot;, Hobby: &quot; + hobby + &quot;, Profissão dos sonhos: &quot; + profissaoSonho + &quot;, Empresa
+dos sonhos: &quot; + empresaSonho + &quot;, Salário desejado: &quot; + salarioDesejado + &quot;,
+Cidade desejada: &quot; + cidadeSonho + &quot;, País para visitar: &quot; + paisSonho + &quot; —
+Cadastro realizado com sucesso!&quot;)
+
+https://www.programiz.com/online-compiler/4ENfTN5vLkvUF
